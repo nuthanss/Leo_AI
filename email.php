@@ -39,6 +39,7 @@ if (isset($_POST['submit_btn'])) {
 			</html>';
     $result = @mail($to, $subject, $message, $headers);
 
-    echo '<script>alert("Email sent successfully !")</script>';
-    echo '<script>window.location.href="index.php";</script>';
+    echo '<script>alert($result)</script>';
+    echo '<script>window.location.href="contact.html";</script>';
 }
+?>
