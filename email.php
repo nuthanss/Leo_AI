@@ -39,5 +39,4 @@ if (isset($_POST['submit_btn'])) {
 			</html>';
     $result = @mail($to, $subject, $message, $headers);
 
-    echo '<script>alert($result)</script>';
 }
