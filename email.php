@@ -2,7 +2,7 @@
 if (isset($_POST['submit_btn'])) {
     $fromEmail = $_POST['email'];
     $name = $_POST['name'];
-    $toEmail = "nuthanss1996@gmail.com";
+    $toEmail = 'nuthanss1996@gmail.com';
     $subjectName = $_POST['subject'];
     $message = $_POST['message'];
 
@@ -40,6 +40,4 @@ if (isset($_POST['submit_btn'])) {
     $result = @mail($to, $subject, $message, $headers);
 
     echo '<script>alert($result)</script>';
-    echo '<script>window.location.href="contact.html";</script>';
 }
-?>
