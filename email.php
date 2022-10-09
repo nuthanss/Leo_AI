@@ -6,14 +6,6 @@ if (isset($_POST['submit_btn'])) {
     $subjectName = $_POST['subject'];
     $message = $_POST['message'];
 
-    echo '<script>
-    console.log($fromEmail);
-    console.log($toEmail);
-    console.log($subjectName);
-    console.log($message);
-    console.log($name);
-    </script>';
-
     $to = $toEmail;
     $subject = $subjectName;
     $headers = "MIME-Version: 1.0" . "\r\n";
