@@ -2,10 +2,10 @@ function sendEmail() {
   
 //   Email.send({
 //     Host : "smtp.elasticemail.com",
-//     Username : "ssnuthan001@gmail.com",
+//     Username : "",
 //     Password : "A933DFF92B7DE02E9666FE68E060E2AC3C97",
-//     To : 'ssnuthan001@gmail.com',
-//     From : "nuthanss1996@gmail.com",
+//     To : '',
+//     From : "",
 //     Subject : "This is the subject",
 //     Body : "And this is the body"
 // }).then(
@@ -15,8 +15,8 @@ function sendEmail() {
 console.log();
 Email.send({
   SecureToken : "a02d981a-d89f-420b-91a5-ef9963749154",
-  To : 'ssnuthan001@gmail.com',
-  From : "nuthanss1996@gmail.com",
+  To : '',
+  From : "",
   Subject : "This is the subject",
   Body : "And this is the body"
 }).then(
