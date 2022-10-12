@@ -18,6 +18,12 @@
         href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
         rel="stylesheet">
 
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href=" https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" rel="stylesheet">
+
+
+
     <!-- Vendor CSS Files -->
     <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
     <link href="assets/vendor/aos/aos.css" rel="stylesheet">
@@ -96,8 +102,6 @@
                         <p>
                             Learning is in our DNA. We commit to offering our people opportunities to acquire new skills
                             and strengthen their readiness to advance into new roles.
-
-
                         </p>
                     </div>
                     <div class="col-lg-4">
@@ -124,15 +128,12 @@
 
                     </div>
                 </div>
-
             </div>
         </section>
-        <section id="about" class="about">
+        <div id="about" class="about">
             <div class="container" data-aos="fade-up">
 
                 <div class="row">
-                    <div class="col-lg-6 order-1 order-lg-2" data-aos="fade-left" data-aos-delay="100">
-                    </div>
                     <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
                         <h3></h3>
                         <p class="fst-Calibri">
@@ -154,14 +155,20 @@
                             <li><i class="bi bi-check-circle"></i> Will give mock interviews</li>
                             <li><i class="bi bi-check-circle"></i> We will not provide assured placements but we can
                                 help in getting interviews </li>
+                            <li>
+                                <div class="d-md-flex mx-auto">
+                                    <h6 class="pt-2">Fee structure</h6>
+                                    <i class="fa fa-file-pdf-o p-1" onclick="download('courseDetails')"
+                                        style="font-size:28px;color:red"></i>
+                                </div>
+                            </li>
 
                         </ul>
-
                     </div>
                 </div>
-
             </div>
-        </section>
+        </div>
+
         <!-- End Cource Details Section -->
 
         <!-- ======= Cource Details Tabs Section ======= -->
@@ -323,7 +330,7 @@
                 </div>
                 <div class="credits">
                     Made with &#128151 using Bootstrap
-                  </div>
+                </div>
             </div>
             <div class="social-links text-center text-md-right pt-3 pt-md-0">
                 <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
@@ -350,6 +357,9 @@
     <!-- Template Main JS File -->
     <script src="assets/js/main.js"></script>
 
+    <!-- Additional scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="script/pdfDown.js"></script>
 </body>
 
 </html>
