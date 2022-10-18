@@ -1,14 +1,9 @@
-.fa:visited {
-  text-decoration: none;
-  display: inline-block;
-/*   Insert choice of font-color here! */
-  color: #000;
-  padding: 20px 40px;
-  border-radius: 10px;
-  transition: all .2s;
-  position: relative;
+.fa:hover {
+    transform: scale(1.2);
+    z-index: 1;
+    
 }
 
 .fa:active {
-  transform: translateY(5px);
+    transform: translateY(1px);
 }
